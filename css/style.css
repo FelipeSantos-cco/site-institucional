@@ -1,6 +1,5 @@
 * {
     font-family: Arial;
-    text-decoration: none;
 }
 
 body {
@@ -37,6 +36,11 @@ body {
     display: flex;
     justify-content: space-evenly;
 }
+
+.conteiner .navBar a {
+    text-decoration: none;
+}
+
 /*Fim do Header*/
 
 /*Começo do Banner*/
@@ -62,6 +66,7 @@ body {
 p span {
     font-weight: 700;
 }
+
 /*Fim do Banner*/
 
 
@@ -91,6 +96,7 @@ p span {
 .card h1 {
     color: #d62e71;
 }
+
 /*Fim do Social*/
 
 /*Começo do Footer*/
@@ -101,9 +107,17 @@ p span {
     margin-bottom: 0;
 }
 
-.footer .conteiner{
+.footer .conteiner {
     height: 50px;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
+
+.footer .conteiner p {
+    margin: 1px 1px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
 /*Fim do Footer*/

@@ -1,19 +1,28 @@
-.form{
+/*Forçando o footer para ele ficar "colado" na parte de baixo*/
+/*Não coloquei margin-bottom, pois ele ia cortar a imagem e a margem ia ser para fora*/
+.banner {
+    padding-bottom: 7%;
+    background-attachment: scroll;
+}
+
+/*Inicio do Login*/
+.form {
+    margin-top: 7%;
     background-color: #cdcdcd;
     display: flex;
     flex-direction: column;
-    padding: 20px 60px;
+    padding: 20px 100px;
     color: #db7093;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
-.label{
+.label {
     font-size: 18px;
     margin: 0;
 }
 
-input{
-    border: solid 3px #32abb1;
+input {
+    border: solid 1px #32abb1;
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 10px;
@@ -27,4 +36,13 @@ button {
     padding: 10px;
     width: 100px;
     border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
 }
+
+.bnt_center{
+    display: flex;
+    justify-content: center;
+}
+
+/*Fim do Login*/
