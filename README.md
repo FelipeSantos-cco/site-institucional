@@ -1,2 +1,2 @@
-# site-institucional
-Site para atividade de PI
+# Site Institucional
+Site fictício para atividade de PI.
